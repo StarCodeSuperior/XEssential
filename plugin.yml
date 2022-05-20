@@ -1,0 +1,51 @@
+name: EssentialX
+version: 0.0.1
+api: 4.0.0
+main: Superior\EssentialX\Main
+author: Superior
+
+commands:
+
+  fly:
+    description: "Toggles Flight"
+    permission: superior.essentialx.fly
+
+  heal:
+    description: "Heals You"
+    permission: superior.essentialx.heal
+
+  feed:
+    description: "Coming Soon..."
+    permission: superior.essentialx.feed
+
+  gmc:
+    description: "Gamemode Creative"
+    permission: superior.essentialx.gm
+
+  gms:
+    description: "Gamemode Survival"
+    permission: superior.essentialx.gm
+
+  gma:
+    description: "Gamemode Adventure"
+    permission: superior.essentialx.gm
+
+  gmsp:
+    description: "Gamemode Spectator"
+    permission: superior.essentialx.gm
+
+permissions:
+  superior.essentialx.feed:
+    default: op
+    description: "Permission For Feed"
+
+  superior.essentialx.gm:
+    default: op
+    description: "Permission To Change Gamemode"
+
+  superior.essentialx.heal:
+    default: op
+    description: "Permission for /heal"
+  superior.essentialx.fly:
+    default: op
+    description: "permission for /fly"
