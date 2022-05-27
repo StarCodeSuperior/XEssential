@@ -10,12 +10,12 @@ OPEN SOURCE
 
 Commands:
 
-heal: heal yourself or other Players
-feed: feed yourself or other players
-gmc: Changed Your or Others Gamemode to Creative
-gms: Changed Your or Others Gamemode to Survival
-gma: Changed Your or Others Gamemode to Adventure
-gmsp: Changed Your or Others Gamemode to Spectator
+heal: heal yourself or other Players \n
+feed: feed yourself or other players \n
+gmc: Changed Your or Others Gamemode to Creative \n
+gms: Changed Your or Others Gamemode to Survival \n
+gma: Changed Your or Others Gamemode to Adventure \n
+gmsp: Changed Your or Others Gamemode to Spectator \n
 fly: toggles your or others Fly
 
 
