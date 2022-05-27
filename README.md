@@ -1,34 +1,37 @@
-# XEssential
+XEssentials or Essentials
 
-This is just a Basic Plugin For Your Pocketmine 4 server.
+-By StarCodeSuperior
 
-Non Fully developed...
+An essentials Plugin For Server
 
-You can give me ideas What I should Add in This Plugin.
+PERMISSION LIST AT LAST
+
+OPEN SOURCE
 
 Commands:
 
-/heal 
-(This will heal you, feed you and clears your effect)
-
-/feed (feeds you)
-
-/gmc (changes Your gamemode to creative)
-
-/gms (changes your gamemode to survival)
-
-/gma (Changes your gamemode to adventure)
-
-/gmsp (Changes Your gamemode to spectator)
+heal: heal yourself or other Players
+feed: feed yourself or other players
+gmc: Changed Your or Others Gamemode to Creative
+gms: Changed Your or Others Gamemode to Survival
+gma: Changed Your or Others Gamemode to Adventure
+gmsp: Changed Your or Others Gamemode to Spectator
+fly: toggles your or others Fly
 
 
-
-Permissions:
-
-/heal = superior.essentialx.heal
-
-/feed = superior.essentialx.feed
-
-For changing gamemode or using all /gma, /gms, /gmsp, /gmc:
-
-superior.essentialx.gm
+Permission:
+heal: 
+  self:  superior.heal.self
+  others: superior.heal.others
+  
+feed: 
+  self:  superior.feed.self
+  others: superior.feed.others
+  
+changing gamemode:
+  self: superior.gm.self
+  others: superior.gm.others
+  
+fly:
+  self: superior.fly.self
+  others: superior.fly.others
